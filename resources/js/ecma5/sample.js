@@ -1,1 +1,2 @@
-alert("Karate Chop");
+//alert("Karate Chop");
+(typeof console !== "undefined") && console.log("Karate Chop");
