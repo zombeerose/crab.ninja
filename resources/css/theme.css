@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+  color: #B10909;
+}
+
+a:hover {
+  color: #E24343;
+}
+a:linked {
+  color: #720B0B;
+}
