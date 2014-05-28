@@ -1,11 +1,7 @@
-body {
-  background-color: black;
-  color: #B10909;
+.wrapper {
+	background: transparent url("../images/stone_crab.png") no-repeat center center;
 }
 
-a:hover {
-  color: #E24343;
-}
-a:linked {
-  color: #720B0B;
+#footer {
+	text-align: center;
 }
