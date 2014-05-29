@@ -6,7 +6,7 @@
     { id: 1, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/191388.jpg', txt: 'Greene & Greene Key Ring' },
     { id: 2, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/277267.jpg', txt: 'Dart Holders' },
     { id: 3, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/19862.jpg', txt: 'Pencil Holders' },
-    { id: 4, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/6756.jpg', txt: '"Slope" A jewelry box' }
+    { id: 4, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/6756.jpg', txt: '"Slope" A jewelry box' },
     { id: 5, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/2388.jpg', txt: 'A bandsaw box' },
     { id: 6, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/30568.jpg', txt: 'Wenge Pet Urn' }
   ]
