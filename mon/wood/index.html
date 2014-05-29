@@ -50,24 +50,19 @@
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
     <script type="text/javascript">
-  var model = new Ext.ux.carousel.Model();
-  model.set({ id:1, delay: 20 });
-  model
-    .slides()
-    .add([
-          { id: 1, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/191388.jpg', txt: 'Greene & Greene Key Ring' },
-          { id: 2, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/277267.jpg', txt: 'Dart Holders' },
-          { id: 3, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/19862.jpg', txt: 'Pencil Holders' },
-          { id: 4, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/6756.jpg', txt: '"Slope" A jewelry box' }
-    ]);
   Ext.onReady(function(){
-	Ext.create('Ext.ux.carousel.View',{
-	  autoStart: true,
-	  height: 420,
-	  model: model,
-	  renderTo: 'carousel',
-	  width: 650
-	});
+    Ext.ux.carousel.Model.setProxy({ type:'ajax', url:'projects.json' });
+    Ext.ux.carousel.Model.load(1,{
+    	success: function(record){
+    	   Ext.create('Ext.ux.carousel.View',{
+		      autoStart: true,
+		      height: 420,
+		      model: model,
+		      renderTo: 'carousel',
+		      width: 650
+		    });
+    	}
+    });
   });
     </script>
   </body>
