@@ -1,0 +1,11 @@
+{ 
+  id: 1,
+  name: 'Carousel',
+  delay: 20,
+  slides: [
+    { id: 1, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/191388.jpg', txt: 'Greene & Greene Key Ring' },
+    { id: 2, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/277267.jpg', txt: 'Dart Holders' },
+    { id: 3, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/19862.jpg', txt: 'Pencil Holders' },
+    { id: 4, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/6756.jpg', txt: '"Slope" A jewelry box' }
+  ]
+}
