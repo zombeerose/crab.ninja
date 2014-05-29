@@ -53,14 +53,18 @@
   Ext.onReady(function(){
     Ext.ux.carousel.Model.setProxy({ type:'ajax', url:'projects.json' });
     Ext.ux.carousel.Model.load(1,{
-    	success: function(record){
+    	success: function(record,op){
     	   Ext.create('Ext.ux.carousel.View',{
 		      autoStart: true,
 		      height: 420,
-		      model: model,
+		      model: record,
 		      renderTo: 'carousel',
 		      width: 650
 		    });
+    	},
+    	failure: function(record,op){
+    		var err = op.getError().toString();
+    		Ext.get('carousel').update(err);
     	}
     });
   });
