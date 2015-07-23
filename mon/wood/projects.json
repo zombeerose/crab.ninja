@@ -9,7 +9,7 @@
     { id: 4, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/6756.jpg', txt: '"Slope" A jewelry box' },
     { id: 5, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/2388.jpg', txt: 'A bandsaw box' },
     { id: 6, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/30568.jpg', txt: 'Wenge Pet Urn' },
-    { id: 7, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/30576-438x.jpg', txt: 'Canarywood Pet Urn' },
+    { id: 7, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/30576-438x.jpg', txt: 'Canarywood Pet Urn', image_style: 'height:100%;' },
     { id: 8, carousel_id: 1, image_url: 'http://lumberjocks.com/assets/pictures/projects/706954-438x.jpg', txt: '"Drop"' }
   ]
 }
